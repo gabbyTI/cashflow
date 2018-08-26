@@ -9,11 +9,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!--CDN Bootstrap CSS -->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
 
-    <title>Cashflow - Welcome</title>
+    <title>Cashflow</title>
     </head>
     <body style="background:url('img/bgimg1.jpg')">
         <!--Nav bar begins-->
@@ -29,16 +33,16 @@
                     <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Privacy Policy</a>
+                    <a class="nav-link" href="policy.php">Privacy Policy</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQs</a>
+                    <a class="nav-link" href="faqs.php">FAQs</a>
                 </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">

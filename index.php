@@ -25,8 +25,10 @@
                         <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">HOW IT WORKS</div>
                             <div class="card-body">
-                                <h5 class="card-title">Light card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!--<h5 class="card-title"></h5>-->
+                                <p class="card-text">Once you have created an account with cashflow you can follow the steps below to get 50% profit for every N4000 You pay</p>
+                                <hr>
+                                <p>- Go to your dashboard and make a pay request <br> - You will be merged with who you are to pay a sum of 4000 naira only within 24hrs <br> - Once your payment is confirmed you are legible to receive your initial payment with a 50% interest <br></p>
                             </div>
                         </div>
                     </div>
@@ -35,8 +37,8 @@
                         <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">CUSTOMER CARE SERVICE</div>
                             <div class="card-body">
-                                <h5 class="card-title">Light card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!--<h5 class="card-title">Light card title</h5>-->
+                                <p class="card-text">We have a 24hours, round the clock customer service personnels to help you with any complains or problems you might have or come across while using our service. <hr> You can easily contact us by sending us a message through a provided medium on our contact page. <hr> Get in touch with us directly: support@cashflow.com</p>
                             </div>
                         </div>
                     </div>
@@ -45,8 +47,8 @@
                         <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">INFO UPDATES</div>
                             <div class="card-body">
-                                <h5 class="card-title">Light card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <!--<h5 class="card-title">Light card title</h5>-->
+                                <p class="card-text">- If you are willing to understand more on how to increase your income using cashlow you can contact us through our contact link <hr>- There is only one payment package available at the moment, which is the N4000 package, Some localities will be legible for more packages in due time</p>
                             </div>
                         </div>
                     </div>
