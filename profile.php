@@ -1,6 +1,5 @@
-<?php
-    include 'includes/header.php';
-?>
+<?php require_once("includes/session.php"); ?>
+<?php include("includes/header.php"); ?>
         <br><br><br>
         <!--Main Body Starts-->
         <div class="container">
@@ -34,6 +33,5 @@
         </div>
         <!--Mian body ends-->
 
-<?php
-    include 'includes/footer.php';
-?> 
+<?php include("includes/footer.php"); ?>
+
