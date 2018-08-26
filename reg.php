@@ -9,7 +9,7 @@
                     <!--Username-->
                     <div class="form-group">
                         <label>Username</label>
-                        <input type="text" class="form-control" name="username" placeholder="Enter username" required>
+                        <input type="text" minlength="3" maxlength="10" class="form-control" name="username" placeholder="Enter username" required>
                     </div>
                     <!--Email-->
                     <div class="form-group">
@@ -20,17 +20,17 @@
                     <!--Phone No.-->
                     <div class="form-group">
                         <label>Phone No.</label>
-                        <input type="tel" class="form-control" name="phoneNumber" placeholder="Enter Phone Number" required>
+                        <input type="tel" maxlength="11" minlength="10" class="form-control" name="phoneNumber" placeholder="Enter Phone Number" required>
                     </div>
                     <!--Password-->
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control"name="password" placeholder="Password" required>
+                        <input type="password" maxlength="15" minlength="5" class="form-control"name="password" placeholder="Password" required>
                     </div>
                     <!--Confirm password-->
                     <div class="form-group">
                         <label>Confirm Password</label>
-                        <input type="password" class="form-control" name="confirmPassword" placeholder=" Confirm Password" required>
+                        <input type="password" maxlength="15" minlength="5" class="form-control" name="confirmPassword" placeholder=" Confirm Password" required>
                     </div>
                     <!--Terms and condition-->
                     <div class="form-group form-check">
