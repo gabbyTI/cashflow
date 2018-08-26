@@ -1,11 +1,12 @@
 <footer class="footer" style="text-align: center; color:gray">
             <div class="inner">
-                <p>Cashflow - copyright &copy; 2018. by <a href="">Vorldline Group</a>.</p>
+                <p>Cashflow - copyright &copy; 2018. by <a href="">Cashflow inc.</a></p>
             </div>
         </footer>
 
         <!--Optional JavaScript -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="../content/vendor/jquery/jquery.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
         <!--CDN Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
