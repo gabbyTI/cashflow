@@ -1,38 +1,41 @@
-<?php
-    include 'includes/header.php';
-?>
+<?php include 'includes/header.php';?>
         <br><br><br>
         <!--Main Body Starts-->
         <div class="container">
             <div class="card" style="padding: 30px">
                 <b>Cashflow - SIGN UP</b>
                 <hr>
-                <form>
+                <form method="post" action="includes/reg_process.php">
+                    <!--Username-->
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Username*</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" required>
+                        <label>Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter username" required>
                     </div>
+                    <!--Email-->
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label>Email address</label>
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
+                    <!--Phone No.-->
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Phone No.*</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <label>Phone No.</label>
+                        <input type="tel" class="form-control" name="phoneNumber" placeholder="Enter Phone Number" required>
                     </div>
+                    <!--Password-->
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        <label>Password</label>
+                        <input type="password" class="form-control"name="password" placeholder="Password" required>
                     </div>
+                    <!--Confirm password-->
                     <div class="form-group">
-                            <label for="exampleInputPassword1">Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-                        </div>
+                        <label>Confirm Password</label>
+                        <input type="password" class="form-control" name="confirmPassword" placeholder=" Confirm Password" required>
+                    </div>
+                    <!--Terms and condition-->
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label" for="exampleCheck1">I agree to all terms &amp; conditions</label>
+                        <input type="checkbox" class="form-check-input" name="termsAndCondition" required>
+                        <label class="form-check-label">I agree to all terms &amp; conditions</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
