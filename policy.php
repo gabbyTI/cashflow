@@ -164,7 +164,7 @@
 
                         <br> 
 
-                        <p>You can get in touch with us for encourage illumination on any of the points above by email to <strong>support@cashgranted.com</strong><br><br> 
+                        <p>You can get in touch with us for encourage illumination on any of the points above by email to <strong>support@CashFlow.com</strong><br><br> 
 
                         Last Updated: This Privacy Policy was last updated on August 26, 2018.</p> 
 
