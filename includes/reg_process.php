@@ -12,7 +12,7 @@ $cpw= trim($_POST["confirmPassword"]);
 // Avoids duplicate username in the DB
 $result= mysqli_query($connection,"SELECT * FROM user_details");
 while ($db=mysqli_fetch_row($result)){
-    if ($un == $db[1]){
+    if ($un == $db[1] || $em == $db[3]){
         echo '
             <div class="container">
                 <div class="card text-center">
@@ -22,7 +22,7 @@ while ($db=mysqli_fetch_row($result)){
                         </div>
                         <div class="card-body">
                             <h1 class="card-title"></h1>
-                            <p class="card-text"><strong>Reason: </strong> Username Already Exists </p>
+                            <p class="card-text"><strong>Reason: </strong> Username or Email Already Exists </p>
                             <p class="card-text">click here to go back to registration</p>
                             <a href="../reg.php" class="btn btn-primary">Register</a>
                         </div>
