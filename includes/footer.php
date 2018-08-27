@@ -1,5 +1,13 @@
-        <hr style="background: gray;">
-        <footer class="footer" style="text-align: center; color:gray">
+        
+        
+        <footer class="footer pt-3 pb-1" 
+        style="text-align: center; color:gray; background:url('img/bgimg1.jpg'); text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;">
             <div class="inner">
                 <p>Cashflow - copyright &copy; 2018. by <a href="">Cashflow inc.</a></p>
             </div>

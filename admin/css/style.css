@@ -1,0 +1,32 @@
+#header {
+    background: #2f4c4e7a;
+}
+
+.breadcrumb {
+    background: #cccccc;
+    columns: #333333;
+}
+
+.breadcrumb a {
+    color: #333333 !important;
+}
+
+#footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#login {
+    margin-top: 50px;
+}
+
+a {
+    color: #ffffff
+}
