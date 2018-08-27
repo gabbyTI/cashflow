@@ -28,7 +28,43 @@
                             User Dashboard
                         </div>
                         <div class="card-body" style="text-align: left">
-                            
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6" >
+                                    <div class="card"  style="background: lightgray;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Make Payment Request</h5>
+                                        <hr>
+                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirm within 12hour.</p>
+                                        <a href="#" class="btn btn-primary">Request to Pay</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card"  style="background: lightgray;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <hr>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card"  style="background: lightgray;">
+                                        <h5 class="card-header">Featured</h5>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Special title treatment</h5>
+                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>

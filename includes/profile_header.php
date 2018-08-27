@@ -37,6 +37,8 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                |
+                <a class="navbar-brand" href="login.php" style="font-size: 15px;"> | Logout</a>
             </div>
         </nav>
         <!--Nav bar ends-->
