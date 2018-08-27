@@ -5,7 +5,7 @@
     if (!$connection){
         die("Database connection failed: ".mysqli_error_list());
     }
-    
+
     //select db
     $db_select = mysqli_select_db($connection,DB_NAME);
     if (!$db_select){
