@@ -23,7 +23,14 @@
             <div class="tab-content" id="myTabContent">
                 <!--Dashboard Section begin-->
                 <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="home-tab">
-                    ...
+                    <div class="card text-center">
+                        <div class="card-header">
+                            User Dashboard
+                        </div>
+                        <div class="card-body" style="text-align: left">
+                            
+                        </div>
+                    </div>
                 </div>
                 <!--Dashboard Section ends-->
                 
@@ -80,36 +87,46 @@
                             Transaction History
                         </div>
                         <div class="card-body" style="text-align: left">
-                        <table class="table">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+                            <div class="table-responsive" style="font-size: 15px;">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Payer</th>
+                                    <th scope="col">Receipient</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Confirm</th>
+                                    <th scope="col">Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>N4000</td>
+                                    <td>Pending</td>
+                                    <td>20/8/2018</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">2</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>N4000</td>
+                                    <td>Pending</td>
+                                    <td>20/8/2018</td>
+                                    </tr>
+                                    <tr>
+                                    <th scope="row">3</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>N4000</td>
+                                    <td>Pending</td>
+                                    <td>20/8/2018</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
                         </div>
                     </div>
                 </div>
