@@ -1,8 +1,11 @@
 <?php require_once("includes/session.php"); ?>
 <?php include("includes/profile_header.php"); ?>
         <br><br><br>
+        
         <!--Main Body Starts-->
         <div class="container">
+
+            <!--Nav list section begins-->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dashboard" role="tab" aria-controls="home" aria-selected="true">Dashboard</a>
@@ -14,24 +17,108 @@
                     <a class="nav-link" id="contact-tab" data-toggle="tab" href="#history" role="tab" aria-controls="contact" aria-selected="false">History</a>
                 </li>
             </ul>
+            <!--Nav list section ends-->
+
+            <!--Tab Contents Section-->
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="home-tab">...</div>
+                <!--Dashboard Section begin-->
+                <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="home-tab">
+                    ...
+                </div>
+                <!--Dashboard Section ends-->
+                
+                <!--Profile Section begins-->
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <div class="card text-center">
-                    <div class="card-header">
-                        About Cashflow
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Profile
+                        </div>
+                        <div class="card-body" style="text-align: left">
+                            <div class="alert alert-info">
+                                Complete your registeration by providing your account details
+                            </div>
+                            <form method="post" action="includes/reg_process.php">
+                                <!--Username-->
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" minlength="3" maxlength="10" class="form-control" name="username" placeholder="Enter username" required>
+                                </div>
+                                <!--Email-->
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <!--Phone No.-->
+                                <div class="form-group">
+                                    <label>Phone No.</label>
+                                    <input type="tel" maxlength="11" minlength="10" class="form-control" name="phoneNumber" placeholder="Enter Phone Number" required>
+                                </div>
+                                <!--Password-->
+                                <div class="form-group">
+                                    <label>Bank Name</label>
+                                    <input type="Text" maxlength="20" minlength="5" class="form-control"name="bankname" placeholder="Account Name" required>
+                                </div>
+                                <!--Confirm password-->
+                                <div class="form-group">
+                                    <label>Account No</label>
+                                    <input type="number" maxlength="15" minlength="5" class="form-control" name="accountno" placeholder=" Confirm Password" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-sm">Edit Profile</button>
+                                <a href="#"><input type="button" value="Change Password" class="btn btn-primary btn-sm"></a>
+                            </form>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Welcome to Cashflow</h5>
-                        <p class="card-text">Are you looking for the safest and low risk way of increasing profit every 48 hours?, if yes, you are at the right place<br>Cashflow is a very simple platform where you recieve a 50% interest for every N4000 you pay/donate, This is real!!!, all you have to do is to make a payment request in your dashboard and within 24hours you will be linked with who you will donate/pay N4000 to, once the receipient confirms your payment you will be legible to recieve in return, 50% of what you have payed out. <i>Other Packages are not available in your locality to reduce fraud.</i> <hr> This platform is very easy to use and simple to understand. with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, Click <a href="reg.php">here</a> if you are not yet registered to get started.</p>
+                    <hr>
+                </div>
+                <!--/Profile Section ends/-->
+
+                <!--History Section Begins-->
+                <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Transaction History
+                        </div>
+                        <div class="card-body" style="text-align: left">
+                        <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
                     </div>
                 </div>
-                <hr>
+                <!--History Section ends-->
+
             </div>
-        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="contact-tab">...</div>
-        </div>
+            <!--Tab Contents Secrion-->
+
         </div>
         <!--Mian body ends-->
 
 <?php include("includes/footer.php"); ?>
-
