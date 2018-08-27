@@ -19,9 +19,9 @@
 
     <title>Cashflow</title>
     </head>
-    <body style="background:url('img/bgimg1.jpg')">
+    <body style="background:url('img/bg2.jpg');">
         <!--Nav bar begins-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark " style="background-color:transparent;">
             <a class="navbar-brand" href="index.php">Cashflow</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
