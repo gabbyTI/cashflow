@@ -35,7 +35,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Make Payment Request</h5>
                                         <hr>
-                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirm within 12hour.</p>
+                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirm within 12hour. Once it is comfirmed you will recieve a merging info within the next 24hrs to which you will be required to pay to.</p>
                                         <a href="#" class="btn btn-primary">Request to Pay</a>
                                     </div>
                                     </div>
@@ -43,10 +43,10 @@
                                 <div class="col-sm-6">
                                     <div class="card"  style="background: lightgray;">
                                     <div class="card-body">
-                                        <h5 class="card-title">Special title treatment</h5>
+                                        <h5 class="card-title">Merging Information</h5>
                                         <hr>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">You are not merged with anyone at thing moment, Request a payment if you have not or if you are expecting to be merged, check back with 12hours, do not hesitate to contact us if you encounter any problem or you havent been merged after 24hrs</p>
+                                        <a href="#" class="btn btn-primary">Show User Contact Details</a>
                                     </div>
                                     </div>
                                 </div>
@@ -55,11 +55,14 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="card"  style="background: lightgray;">
-                                        <h5 class="card-header">Featured</h5>
+                                        <h5 class="card-header">Confirm Payment</h5>
                                         <div class="card-body">
-                                            <h5 class="card-title">Special title treatment</h5>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">Type in or paste the transaction code you recieved and click confirm to confirm payment</p>
+                                            <form class="form-inline">
+                                            <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="" placeholder="Transaction code here" required>
+                                                <button class="btn btn-primary" type="submit">Confirm</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
