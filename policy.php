@@ -177,7 +177,6 @@
             </div>
             <hr>
         </div>
-        <br/><br/><br/>
         <!--Mian body ends-->
 
 <?php

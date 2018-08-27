@@ -14,12 +14,12 @@
                     <p class="card-text"></p>
                     <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Username*</label>
+                        <label for="exampleInputEmail1">Username<i class="text-primary">*</i></label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email*</label>
+                        <label for="exampleInputEmail1">Email<i class="text-primary">*</i></label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
                     </div>
                 

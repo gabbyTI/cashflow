@@ -1,15 +1,32 @@
 <?php
     include 'includes/header.php';
 ?>
-        <!--Main Body Starts--><br/><br/>
+        <!--Main Body Starts-->
         <div class="container">
             <div class="card text-center">
-                
+                <div class="card-header">
+                    Welcome
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Welcome to Cashflow</h5>
-                    <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
-                    <a href="login.php" class="btn btn-primary">Login</a>
-                    <a href="reg.php" class="btn btn-primary">Register</a>
+                    <?php
+                        if (!$user) {
+                            # code...
+                            ?>
+                            <h5 class="card-title">Welcome to Cashflow</h5>
+                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
+                            <a href="login.php" class="btn btn-primary">Login</a>
+                            <a href="reg.php" class="btn btn-primary">Register</a>
+                            <?php
+                        }
+                        else{
+                            ?>
+                            <h5 class="card-title">Welcome to Cashflow -- <?php echo $user; ?> --</h5>
+                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click the links below to get continue.</p>
+                            <a href="<?php echo "profile.php?id=$id"; ?>" class="btn btn-success">Dashboard</a>
+                            <a href="logout.php" class="btn btn-danger">Logout</a>
+                            <?php
+                        }
+                    ?>
                 </div>
 
                 <div class="card-footer text-muted">
@@ -17,10 +34,10 @@
                 </div>
             </div>
             <hr>
-            <div class="container" style="font-weight: bold">
+            <div class="container p-0">
                 <div class="row">
-                    <div class="col-sm">
-                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="col-md-4 mb-2">
+                        <div class="card bg-light mb-3 h-100">
                             <div class="card-header">HOW IT WORKS</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title"></h5>-->
@@ -31,8 +48,8 @@
                         </div>
                     </div>
                     
-                    <div class="col-sm">
-                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="col-md-4 mb-2">
+                        <div class="card bg-light mb-3 h-100">
                             <div class="card-header">CUSTOMER CARE SERVICE</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
@@ -41,8 +58,8 @@
                         </div>
                     </div>
                     
-                    <div class="col-sm">
-                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="col-md-4 mb-2">
+                        <div class="card bg-light mb-3 h-100">
                             <div class="card-header">INFO UPDATES</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
@@ -55,7 +72,6 @@
 
         </div>
         <!--Mian body ends-->
-        <br/><br/><br/>
 
 <?php
     include 'includes/footer.php';

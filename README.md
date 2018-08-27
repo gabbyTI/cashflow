@@ -11,11 +11,11 @@ Please read the guidlines below to understand how to proceed.
 
 ===Database Structure===
 
-- Database will consist of 4 tables:
-    * UserDetails Table ::Columns:: ID | Username | Password | Email | Phone
-    * Bank Details Table ::Columns:: ID | Bank Name | Account No
-    * Payers Table ::Columns:: ID | Username
-    * Transaction/Merging Table ::Columns:: ID | Transaction ID | Payer |           Receiver | Amount | Confirm | Date
+    Database will consist of 4 tables:
+    - UserDetails Table ::Columns:: ID | Username | Password | Email | Phone
+    - Bank Details Table ::Columns:: ID | Bank Name | Account No
+    - Payers Table ::Columns:: ID | Username
+    - Transaction/Merging Table ::Columns:: ID | Transaction ID | Payer |           Receiver | Amount | Confirm | Date
 
 +++ Transactions will be confirmed by receivers by the transaction ID +++
 
