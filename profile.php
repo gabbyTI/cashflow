@@ -1,5 +1,5 @@
 <?php require_once("includes/session.php"); ?>
-<?php include("includes/header.php"); ?>
+<?php include("includes/profile_header.php"); ?>
         <br><br><br>
         <!--Main Body Starts-->
         <div class="container">

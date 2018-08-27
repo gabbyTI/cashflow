@@ -1,4 +1,4 @@
-<?php require("../includes/constants.php"); ?>
+<?php require("constants.php"); ?>
 <?php 
     //create
     $connection = mysqli_connect(DB_SERVER,DB_USER,DB_PASS);
