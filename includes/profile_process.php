@@ -1,6 +1,4 @@
 <?php require_once("session.php"); ?>
-<?php require_once("connection.php"); ?>
-
 <?php include 'header.php';?>
 
 <?php 
@@ -266,18 +264,19 @@
             $curdate = date("Y-m-d");
             $surtime = date("h:i:sa");
             
-            if (mysqli_num_rows($result) == 1){
+            if (mysqli_num_rows($result) == 1) {
                 $query = "INSERT INTO payers
                 (userID, username, amount, date, time) 
                 VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}')";
 
-                $result=mysqli_query($connection,$query);
+                $result = mysqli_query($connection,$query);
+
                 if(!$result){
                     echo '<div class="container">
                     <div class="card text-center">
                         <div class="card text-center" style="padding-top:50px;">
                             <div class="card-header">
-                                <h2>Something went wrong: Request Was not sent</h2>
+                                <h2>Something went wrong: Request Was not sent '."true $row".'</h2>
                             </div>
                             <div class="card-body">
                                 <h1 class="card-title"></h1>

@@ -1,4 +1,18 @@
-<?php include 'includes/header.php';?>
+<?php 
+    require 'includes/session.php';
+    include 'includes/header.php';
+    
+    if ($user) {
+        ?>
+        <br /><br />
+        <div class="offset-md-1 mt-5 col-md-10 alert alert-warning text-center animated flash">
+            <i class="fa fa-exclamation-triangle"></i> 
+            Please, Kindly <a class="" href="logout.php">LOGOUT</a> to view this page!!!
+        </div>
+        <?php
+        exit();
+    }
+?>
         <br><br><br>
         <!--Main Body Starts-->
         <div class="container">
@@ -24,6 +38,14 @@
                     </div>
                     <!--Password-->
                     <div class="form-group">
+                        <label>Security question</label>
+                        <input type="text" maxlength="200" minlength="3" class="form-control"name="squestion" placeholder="Security question" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Security Answer</label>
+                        <input type="text" maxlength="200" minlength="1" class="form-control"name="sanswer" placeholder="Security answer" required>
+                    </div>
+                    <div class="form-group">
                         <label>Password</label>
                         <input type="password" maxlength="15" minlength="5" class="form-control"name="password" placeholder="Password" required>
                     </div>
@@ -42,7 +64,6 @@
             </div>
         </div>
         <!--Mian body ends-->
-
         <hr>
 <?php
     include 'includes/footer.php';

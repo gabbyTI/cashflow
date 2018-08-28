@@ -1,3 +1,11 @@
+<?php require("userinc.php"); 
+//Send request to server to get http or https address
+$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+
+//Set $currentURL as the http or https address
+$currentURL = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . $_SERVER['QUERY_STRING'];
+?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -29,21 +37,36 @@
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="policy.php">Privacy Policy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faqs.php">FAQs</a>
-                </li>
+                    <?php
+                        if (strpos($currentURL, "profile.php") == false){
+                            ?>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.php">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.php">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="policy.php">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faqs.php">FAQs</a>
+                            </li>
+                            <?php
+                        }  
+                        if (strpos($currentURL, "profile.php") !== false){
+                            if ($user) {
+                                ?>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                                </li>            
+                                <?php
+                            }
+                        }
+                    ?>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

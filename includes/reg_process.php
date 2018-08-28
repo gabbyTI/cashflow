@@ -1,12 +1,12 @@
-<?php require_once("../includes/connection.php"); ?>
-
-<?php include '../includes/header.php';?>
+<?php require_once("../includes/header.php"); ?>
 
 <?php
 $un= trim($_POST["username"]);
 $em= trim($_POST["email"]);
 $pn= trim($_POST["phoneNumber"]);
 $pw= trim($_POST["password"]);
+$ques= trim($_POST["squestion"]);
+$ans= trim($_POST["sanswer"]);
 $cpw= trim($_POST["confirmPassword"]);
 $rf= trim($_POST["register"]);
 
@@ -52,8 +52,14 @@ if ($pw == $cpw){
     (ID, username, password, email, phone_no, refeerer) 
     VALUES ('','{$un}','{$hpw}','{$em}','{$pn}', '{$disrefname}')";
     
+    $query2 = "INSERT INTO sec_qa
+    (id, email, phone, ques, answer) 
+    VALUES ('','{$em}','{$pn}','{$ques}','{$ans}')";
+    
+
     $result= mysqli_query($connection,$query);
-    if (!$result){
+    $result2= mysqli_query($connection,$query2);
+    if (!$result || !$result2){
         die("Database connection failed: ");
     }else{
         //More Success
