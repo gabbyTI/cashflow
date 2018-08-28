@@ -8,12 +8,12 @@
                 <b>Cashflow - Retrieve Password</b>
                 <hr>
                 <div class="alert alert-info">
-                    <strong>After clicking submit a password reset link will be sent to your email</strong>
+                    <strong>Answer your Security question in the next screen</strong>
                 </div>
-                <form method="post" action="includes/login_process.php">
+                <form method="post" action="includes/fpwrd_process.php">
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="text" minlength="3" maxlength="10" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Username or Email" required>
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Username or Email" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

@@ -1,5 +1,18 @@
 <?php
+    require 'includes/session.php';
     include 'includes/header.php';
+    
+
+    if ($user) {
+        ?>
+        <br /><br />
+        <div class="offset-md-1 mt-5 col-md-10 alert alert-warning text-center animated flash">
+            <i class="fa fa-exclamation-triangle"></i> 
+            Please, Kindly <a class="" href="logout.php">LOGOUT</a> to view this page!!!
+        </div>
+        <?php
+        exit();
+    }
 ?>
         <br><br><br>
         <!--Main Body Starts-->

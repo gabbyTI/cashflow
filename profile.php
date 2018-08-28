@@ -1,6 +1,4 @@
-<?php require_once("includes/session.php");?>
 <?php require_once("includes/profile_process.php");?>
-<?php include("includes/profile_header.php");?>
         <br><br><br>
         
         <!--Main Body Starts-->
@@ -38,7 +36,7 @@
                                         <hr>
                                         <p class="card-text">Click the button below to make a payment request. Your request will be confirmed and you will recieve a merging info within the next 12hrs to which you will be required to pay to. You can request Among the following packages: <strong>N2000, N4000, N6000, N8000 and N10000</strong></p>
                                         <form class="form-inline" method="post" action="includes/profile_process.php">
-                                        <input type="text" class="form-control" name="amt" placeholder="Package Amount">
+                                        <input type="text" minlength="4" class="form-control" name="amt" placeholder="Package Amount" required>
                                         <button type="submit" name="requestpay" class="btn btn-sm btn-primary">Request to Pay</a>
                                         </form>
                                     </div>
