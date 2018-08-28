@@ -22,6 +22,7 @@
                     <div class="col-sm">
                         <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">HOW IT WORKS</div>
+                            
                             <div class="card-body">
                                 <!--<h5 class="card-title"></h5>-->
                                 <p class="card-text">Once you have created an account with cashflow you can follow the steps below to get 50% profit for any package you choose</p>
