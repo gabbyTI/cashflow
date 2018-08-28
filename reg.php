@@ -14,7 +14,7 @@
                     <!--Email-->
                     <div class="form-group">
                         <label>Email address</label>
-                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <!--Phone No.-->

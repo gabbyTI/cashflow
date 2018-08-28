@@ -15,7 +15,7 @@ Please read the guidlines below to understand how to proceed.
     * UserDetails Table ::Columns:: ID | Username | Password | Email | Phone
     * Bank Details Table ::Columns:: ID | Bank Name | Account No
     * Payers Table ::Columns:: ID | Username
-    * Transaction/Merging Table ::Columns:: ID | Transaction ID | Payer |           Receiver | Amount | Confirm | Date
+    * Transaction/Merging Table ::Columns:: ID | Transaction ID | Payer | Receiver | Amount | Confirm | Date | time
 
 +++ Transactions will be confirmed by receivers by the transaction ID +++
 
