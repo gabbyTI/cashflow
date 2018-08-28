@@ -249,61 +249,200 @@
 
     //Code to request payment
     if (isset($_POST['requestpay'])) {
-        $query = "SELECT * FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
-        $result= mysqli_query($connection,$query);
-        if (!$result){
-            die("Database connection failed");
-        }
+        $pamt = trim($_POST['amt']);
 
-        while ($db=mysqli_fetch_row($result)){
-            $user_id = $db[0];
-        }
-        $curdate = date("Y-m-d");
-        $surtime = date("h:i:sa");
-        if (mysqli_num_rows($result) == 1){
-            $query = "INSERT INTO payers
-            (userID, username, date, time) 
-            VALUES ('{$user_id}','{$sessionkey}','{$curdate}','{$surtime}')";
+        if ($pamt == "2000" || $pamt == "4000"){
 
-            $result=mysqli_query($connection,$query);
-            if(!$result){
-                echo '<div class="container">
-                <div class="card text-center">
-                    <div class="card text-center" style="padding-top:50px;">
-                        <div class="card-header">
-                            <h2>Something went wrong: Request Was not sent</h2>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title"></h1>
-                            <p class="card-text">Your request was not sent succesfully, you can go back and try again</p>
-                            <p class="card-text">click here to go back</p>
-                            <a href="../profile.php" class="btn btn-primary">back</a>
-                        </div>
-                    </div>
-                </div>
-            </div>';
-            }else{
-                //header("location: ../profile.php");
-                echo '<div class="container">
-                        <div class="card text-center">
-                            <div class="card text-center" style="padding-top:50px;">
-                                <div class="card-header">
-                                    <h2>Request Sent Successfully</h2>
-                                </div>
-                                <div class="card-body">
-                                    <h1 class="card-title"></h1>
-                                    <p class="card-text">You have just sent a payment request, you will be merged within 12hours</p>
-                                    <p class="card-text">click here to go back to your dashboard</p>
-                                    <a href="../profile.php" class="btn btn-primary">Back</a>
-                                </div>
+            //Code to execute if condition is true
+            $query = "SELECT * FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
+            $result= mysqli_query($connection,$query);
+            if (!$result){
+                die("Database connection failed");
+            }
+
+            while ($db=mysqli_fetch_row($result)){
+                $user_id = $db[0];
+            }
+            $curdate = date("Y-m-d");
+            $surtime = date("h:i:sa");
+            
+            if (mysqli_num_rows($result) == 1){
+                $query = "INSERT INTO payers
+                (userID, username, amount, date, time) 
+                VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}')";
+
+                $result=mysqli_query($connection,$query);
+                if(!$result){
+                    echo '<div class="container">
+                    <div class="card text-center">
+                        <div class="card text-center" style="padding-top:50px;">
+                            <div class="card-header">
+                                <h2>Something went wrong: Request Was not sent</h2>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title"></h1>
+                                <p class="card-text">Your request was not sent succesfully, you can go back and try again</p>
+                                <p class="card-text">click here to go back</p>
+                                <a href="../profile.php" class="btn btn-primary">back</a>
                             </div>
                         </div>
                     </div>
-                ';
+                </div>';
+                }else{
+                    //header("location: ../profile.php");
+                    echo '<div class="container">
+                            <div class="card text-center">
+                                <div class="card text-center" style="padding-top:50px;">
+                                    <div class="card-header">
+                                        <h2>Request Sent Successfully</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1 class="card-title"></h1>
+                                        <p class="card-text">You have just sent a payment request, you will be merged within 12hours</p>
+                                        <p class="card-text">click here to go back to your dashboard</p>
+                                        <a href="../profile.php" class="btn btn-primary">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ';
+                    exit;
+                }
+
+                exit;
+            }
+            
+        }else if ($pamt == "6000" || $pamt == "8000"){
+            $query = "SELECT * FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
+            $result= mysqli_query($connection,$query);
+            if (!$result){
+                die("Database connection failed");
+            }
+
+            while ($db=mysqli_fetch_row($result)){
+                $user_id = $db[0];
+            }
+            $curdate = date("Y-m-d");
+            $surtime = date("h:i:sa");
+            if (mysqli_num_rows($result) == 1){
+                $query = "INSERT INTO payers
+                (userID, username, amount, date, time) 
+                VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}')";
+
+                $result=mysqli_query($connection,$query);
+                if(!$result){
+                    echo '<div class="container">
+                    <div class="card text-center">
+                        <div class="card text-center" style="padding-top:50px;">
+                            <div class="card-header">
+                                <h2>Something went wrong: Request Was not sent</h2>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title"></h1>
+                                <p class="card-text">Your request was not sent succesfully, you can go back and try again</p>
+                                <p class="card-text">click here to go back</p>
+                                <a href="../profile.php" class="btn btn-primary">back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>';
+                }else{
+                    //header("location: ../profile.php");
+                    echo '<div class="container">
+                            <div class="card text-center">
+                                <div class="card text-center" style="padding-top:50px;">
+                                    <div class="card-header">
+                                        <h2>Request Sent Successfully</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1 class="card-title"></h1>
+                                        <p class="card-text">You have just sent a payment request, you will be merged within 12hours</p>
+                                        <p class="card-text">click here to go back to your dashboard</p>
+                                        <a href="../profile.php" class="btn btn-primary">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ';
+                    exit;
+                }
+
+                exit;
+            } 
+        }else if ($pamt == "10000") {
+            $query = "SELECT * FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
+            $result= mysqli_query($connection,$query);
+            if (!$result){
+                die("Database connection failed");
+            }
+
+            while ($db=mysqli_fetch_row($result)){
+                $user_id = $db[0];
+            }
+            $curdate = date("Y-m-d");
+            $surtime = date("h:i:sa");
+            if (mysqli_num_rows($result) == 1){
+                $query = "INSERT INTO payers
+                (userID, username, amount, date, time) 
+                VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}')";
+
+                $result=mysqli_query($connection,$query);
+                if(!$result){
+                    echo '<div class="container">
+                    <div class="card text-center">
+                        <div class="card text-center" style="padding-top:50px;">
+                            <div class="card-header">
+                                <h2>Something went wrong: Request Was not sent</h2>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title"></h1>
+                                <p class="card-text">Your request was not sent succesfully, you can go back and try again</p>
+                                <p class="card-text">click here to go back</p>
+                                <a href="../profile.php" class="btn btn-primary">back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>';
+                }else{
+                    //header("location: ../profile.php");
+                    echo '<div class="container">
+                            <div class="card text-center">
+                                <div class="card text-center" style="padding-top:50px;">
+                                    <div class="card-header">
+                                        <h2>Request Sent Successfully</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <h1 class="card-title"></h1>
+                                        <p class="card-text">You have just sent a payment request, you will be merged within 12hours</p>
+                                        <p class="card-text">click here to go back to your dashboard</p>
+                                        <a href="../profile.php" class="btn btn-primary">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ';
+                    exit;
+                }
+
                 exit;
             }
 
-            exit;
-        }
+        }else{
+            echo '<div class="container">
+                <div class="card text-center">
+                    <div class="card text-center" style="padding-top:50px;">
+                        <div class="card-header">
+                            <h2>Request Failed</h2>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title"></h1>
+                            <p class="card-text">The Package amount you choose is not available, checkout available packages below</p>
+                            <p class="card-text">click here to go back to your dashboard</p>
+                            <a href="../profile.php" class="btn btn-primary">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        ';}
     }
 ?>
