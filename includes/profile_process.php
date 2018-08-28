@@ -94,40 +94,73 @@
         $transacchk = trim($_POST['confirmid']);
         $con = 'confirmed';
         
-        $query = "SELECT confirm FROM transac WHERE (transacID = '{$transacchk}') LIMIT 1";
+        $query = "SELECT recipient FROM transac WHERE (transacID = '{$transacchk}') LIMIT 1";
         $result= mysqli_query($connection,$query);
         if (!$result){
             die("Database connection failed");
+        }else{
+            while ($db=mysqli_fetch_row($result)){
+                $rcpt = $db[0];
+            }
         }
 
-        if (mysqli_num_rows($result) == 1){
-            $query = "UPDATE transac set confirm = '{$con}' where (transacID = '{$transacchk}')";
+        if ($rcpt == $sessionkey) {
 
-            $result=mysqli_query($connection,$query);
-            if(!$result){
+            $query = "SELECT confirm FROM transac WHERE (transacID = '{$transacchk}') LIMIT 1";
+            $result= mysqli_query($connection,$query);
+            if (!$result){
                 die("Database connection failed");
-            }else{
-                echo 
-                    "<div class='container'>
-                        <div class='card text-center'>
-                            <div class='card text-center' style='padding-top:50px;'>
-                                <div class='card-header'>
-                                    <h2>Details Search Result For: ".$userchk."</h2>
-                                </div>
-                                <div class='card-body'>
-                                    <h1 class='card-title'></h1>
-                                     <strong><p class='card-text'>Payment with transaction ID: ".$transacchk." has been confirmed!!!</p></strong>
-                                    <hr>
-                                    <p class='card-text'>click here to go back</p>
-                                    <a href='../profile.php' class='btn btn-primary'>back</a>
+            }
+
+            if (mysqli_num_rows($result) == 1){
+                $query = "UPDATE transac set confirm = '{$con}' where (transacID = '{$transacchk}')";
+
+                $result=mysqli_query($connection,$query);
+                if(!$result){
+                    die("Database connection failed");
+                }else{
+                    echo 
+                        "<div class='container'>
+                            <div class='card text-center'>
+                                <div class='card text-center' style='padding-top:50px;'>
+                                    <div class='card-header'>
+                                        <h2>Confirmation Successfull: ".$userchk."</h2>
+                                    </div>
+                                    <div class='card-body'>
+                                        <h1 class='card-title'></h1>
+                                        <strong><p class='card-text'>Payment with transaction ID: ".$transacchk." has been confirmed!!!</p></strong>
+                                        <hr>
+                                        <p>This is to certify that user (".$sessionkey.") has recieved payment for this transaction in full!</p>
+                                        <hr>
+                                        <p class='card-text'>click here to go back</p>
+                                        <a href='../profile.php' class='btn btn-primary'>back</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>";
-                }
+                        </div>";
+                    }
 
-            exit;
-        }   
+                exit;
+            }
+        }else{
+            echo 
+                "<div class='container'>
+                    <div class='card text-center'>
+                        <div class='card text-center' style='padding-top:50px;'>
+                            <div class='card-header'>
+                                <h2>Fatal Error: Confirmation Failed!!!</h2>
+                            </div>
+                            <div class='card-body'>
+                                <h1 class='card-title'></h1>
+                                <strong><p class='card-text'>Sorry ".$sessionkey." , you do not have permission to confirm this payment</p></strong>
+                                <hr>
+                                <p class='card-text'>click here to go back</p>
+                                <a href='../profile.php' class='btn btn-primary'>back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>";
+        }
     }
 
     //Code to retrieve user contacts and details
