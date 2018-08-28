@@ -5,6 +5,8 @@
 
 <?php
 //if(isset($_POST['submit'])){
+    $username = "";
+
     $un= trim($_POST["username"]);
     $pw= trim($_POST["password"]);
     $hpw= md5($pw);
