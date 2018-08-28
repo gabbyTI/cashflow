@@ -148,7 +148,7 @@
                         </div>
                         <div class="card-body" style="text-align: left">
                             <div class="alert alert-info">
-                                Complete your registeration by providing your account details
+                                Complete your registeration by providing your account details | Referall link: http://localhost/cashflow/reg.php?ref=<?php echo $disid; ?>
                             </div>
                             <form method="post" action="includes/profile_process.php">
                                 <!--Username-->

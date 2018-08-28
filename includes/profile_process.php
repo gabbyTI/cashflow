@@ -4,7 +4,12 @@
 <?php include 'header.php';?>
 
 <?php 
+
+    //Declaration of Global vriables
+    //--------------------------------
     $disbn = "";
+    $disan = "";
+    $disat = "";
     $disid = "";
     $disun = "";
     $disem = "";
@@ -14,6 +19,7 @@
     $useratoutput ="";
     $userbnoutput ="";
     $userphoneoutput ="";
+    // ----------------------------
 
     $sessionkey = $_SESSION['username'];
 
@@ -51,7 +57,7 @@
         $an= trim($_POST["accntno"]);
         $at= trim($_POST["accnttype"]);
 
-        $query = "SELECT * FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
+        $query = "SELECT ID FROM user_details WHERE (username = '{$sessionkey}') LIMIT 1";
         $result= mysqli_query($connection,$query);
         if (!$result){
             die("Database connection failed");
@@ -61,7 +67,10 @@
             $user_id = $db[0];
         }
 
-        if (mysqli_num_rows($result) == 1){
+        $query = "SELECT * FROM bank_details WHERE (userID = '{$user_id}') LIMIT 1";
+        $result= mysqli_query($connection,$query);
+        
+        if ($result){
             $query = "UPDATE bank_details set bankname = '{$bn}', accountno = '{$an}', accounttype = '{$at}' WHERE (userID = '{$user_id}')";
 
             $result=mysqli_query($connection,$query);
@@ -84,9 +93,35 @@
                         </div>
                     </div>";
             }
+        }else{
+            $query = "INSERT INTO bank_details
+            (ID, userID, bankname, accountno, accounttype) 
+            VALUES ('','{$user_id}','{$bn}','{$an}','{$at}')";
+
+            $result=mysqli_query($connection,$query);
+            if(!$result){
+                die("Database connection failed");
+            }else{
+                echo 
+                "<div class='container'>
+                    <div class='card text-center'>
+                        <div class='card text-center' style='padding-top:50px;'>
+                            <div class='card-header'>
+                                <h2>Your Update Was successfull</h2>
+                            </div>
+                            <div class='card-body'>
+                                <hr>
+                                <p class='card-text'>click here to go back</p>
+                                <a href='../profile.php' class='btn btn-primary'>back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>";
+            }
 
             exit;
         }
+        
     }
 
     //Code to comfirm Payment with transaction ID [Uncompleted]
