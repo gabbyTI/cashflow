@@ -1,4 +1,3 @@
-<?php include 'userinc.php'; ?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -17,8 +16,6 @@
     
     <!--CDN Bootstrap CSS -->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
-
-    <script src="../jquery/dist/jquery.min.js"></script>
 
     <title>Cashflow</title>
     </head>

@@ -1,32 +1,15 @@
 <?php
     include 'includes/header.php';
 ?>
-        <!--Main Body Starts-->
+        <!--Main Body Starts--><br/><br/>
         <div class="container">
             <div class="card text-center">
-                <div class="card-header">
-                    Welcome
-                </div>
+                
                 <div class="card-body">
-                    <?php
-                        if (!$user) {
-                            # code...
-                            ?>
-                            <h5 class="card-title">Welcome to Cashflow</h5>
-                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
-                            <a href="login.php" class="btn btn-primary">Login</a>
-                            <a href="reg.php" class="btn btn-primary">Register</a>
-                            <?php
-                        }
-                        else{
-                            ?>
-                            <h5 class="card-title">Welcome to Cashflow -- <?php echo $user; ?> --</h5>
-                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click the links below to get continue.</p>
-                            <a href="<?php echo "profile.php?id=$id"; ?>" class="btn btn-success">Dashboard</a>
-                            <a href="logout.php" class="btn btn-danger">Logout</a>
-                            <?php
-                        }
-                    ?>
+                    <h5 class="card-title">Welcome to Cashflow</h5>
+                    <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
+                    <a href="login.php" class="btn btn-primary">Login</a>
+                    <a href="reg.php" class="btn btn-primary">Register</a>
                 </div>
 
                 <div class="card-footer text-muted">
@@ -34,22 +17,22 @@
                 </div>
             </div>
             <hr>
-            <div class="container p-0">
+            <div class="container" style="font-weight: bold">
                 <div class="row">
-                    <div class="col-md-4 mb-2">
-                        <div class="card bg-light mb-3 h-100">
+                    <div class="col-sm">
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">HOW IT WORKS</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title"></h5>-->
-                                <p class="card-text">Once you have created an account with cashflow you can follow the steps below to get 50% profit for every N4000 You pay</p>
+                                <p class="card-text">Once you have created an account with cashflow you can follow the steps below to get 50% profit for any package you choose</p>
                                 <hr>
-                                <p>- Go to your dashboard and make a pay request <br> - You will be merged with who you are to pay a sum of 4000 naira only within 24hrs <br> - Once your payment is confirmed you are legible to receive your initial payment with a 50% interest <br></p>
+                                <p>- Go to your dashboard and make a pay request <br> - You will be merged with who you are to pay within 24hrs <br> - Once your payment is confirmed you are legible to receive your initial payment with a 50% interest <br></p>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="col-md-4 mb-2">
-                        <div class="card bg-light mb-3 h-100">
+                    <div class="col-sm">
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
                             <div class="card-header">CUSTOMER CARE SERVICE</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
@@ -58,12 +41,12 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4 mb-2">
-                        <div class="card bg-light mb-3 h-100">
-                            <div class="card-header">INFO UPDATES</div>
+                    <div class="col-sm">
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">AVAILABLE PACKAGES</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
-                                <p class="card-text">- If you are willing to understand more on how to increase your income using cashlow you can contact us through our contact link <hr>- There is only one payment package available at the moment, which is the N4000 package, Some localities will be legible for more packages in due time</p>
+                                <p class="card-text">Request and pay any of the following packages to get 50% interest in return <hr>- N2000 Package - ROI: 50%<br><br> - N4000 Package - ROI: 50% <br><br> - N6000 Package - ROI: 50% <br><br> - N8000 Package - ROI: 50% <br><br> - N10000 Package - ROI: 50% </p>
                             </div>
                         </div>
                     </div>
@@ -72,6 +55,7 @@
 
         </div>
         <!--Mian body ends-->
+        <br/><br/><br/>
 
 <?php
     include 'includes/footer.php';

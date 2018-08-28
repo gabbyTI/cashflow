@@ -10,7 +10,7 @@
                 <form method="post" action="includes/login_process.php">
                     <div class="form-group">
                         <label>Username</label>
-                        <input type="text" minlength="3" maxlength="10" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Username or Email" required>
+                        <input type="text" minlength="3" maxlength="10" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Username" required>
                     </div>
                 
                     <div class="form-group">
@@ -18,6 +18,7 @@
                         <input type="password" maxlength="15" minlength="5" class="form-control" name="password" placeholder="Password" required>
                     </div>
                     <button type="submit" class="btn btn-primary">Sign in</button>
+                    <a href="forgot_password.php"> - Forgot Password</a>
                 </form>
             </div>
         </div>
