@@ -3,7 +3,7 @@
         <!--Main Body Starts-->
         <div class="container">
             <div class="card" style="padding: 30px">
-                <b>Cashflow - SIGN UP</b>
+                <b>Cashflow - SIGN UP <?php echo $_GET['ref']; ?></b>
                 <hr>
                 <form method="post" action="includes/reg_process.php">
                     <!--Username-->
@@ -37,7 +37,7 @@
                         <input type="checkbox" class="form-check-input" name="termsAndCondition" required>
                         <label class="form-check-label">I agree to all terms &amp; conditions</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button value="<?php echo $_GET['ref']?>" type="submit" name="register" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
