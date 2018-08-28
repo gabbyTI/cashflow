@@ -3,7 +3,7 @@
         <!--Main Body Starts-->
         <div class="container">
             <div class="card" style="padding: 30px">
-                <b>Cashflow - SIGN UP <?php echo $_GET['ref']; ?></b>
+                <b>Cashflow - SIGN UP</b>
                 <hr>
                 <form method="post" action="includes/reg_process.php">
                     <!--Username-->
