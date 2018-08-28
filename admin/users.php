@@ -1,14 +1,6 @@
 <?php 
  include("inc/header.php")
 ?>
-
-<body>
-<?php 
- include("inc/navbar.php")
-?>
-
-
-
     <header id="header">
         <div class="container">
             <div class="row">
@@ -114,21 +106,3 @@
  <?php 
  include("inc/footer.php")
 ?>
-
-    <!--modals-->
-    <?php include("inc/moddel.php")?> 
-    <?php include("inc/modpage.php")?>
-    <?php include("inc/modpost.php")?>
-    <?php include("inc/moduser.php")?>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-
-
-</html>

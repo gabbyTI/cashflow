@@ -1,13 +1,4 @@
-<?php 
- include("inc/header.php")
-?>
-
-<?php 
- include("inc/navbar.php")
-?>
-
-
-
+<?php include("inc/header.php") ?>
     <header id="header">
         <div class="container">
             <div class="row">
@@ -115,31 +106,4 @@
             </div>
         </div>
     </section>
-
-    <?php include("inc/footer.php")?>
-
-    <!--modals-->
-    <?php include("inc/moddel.php")?> 
-    <?php include("inc/modpage.php")?>
-    <?php include("inc/modpost.php")?>
-    <?php include("inc/moduser.php")?>
-    <!--Add Page-->
-
-  
-
-    <script>
-        CKEDITOR.replace('editor1')
-        CKEDITOR.replace('editor2')
-        CKEDITOR.replace('editor3')
-    </script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-
-
-</html>
+<?php include("inc/footer.php") ?>

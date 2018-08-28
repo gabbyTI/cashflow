@@ -1,15 +1,6 @@
 <?php 
  include("inc/header.php")
 ?>
-
-<body>
-    <!--Navigation Bar-->
-    <?php 
- include("inc/navbar.php")
-?>
-
-
-
     <header id="header">
         <div class="container">
             <div class="row">
