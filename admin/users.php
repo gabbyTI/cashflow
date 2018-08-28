@@ -1,6 +1,5 @@
-<?php 
- include("inc/header.php")
-?>
+<?php include("../includes/connection.php") ?>
+<?php include("inc/header.php") ?>
     <header id="header">
         <div class="container">
             <div class="row">
@@ -49,52 +48,35 @@
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>Name</th>
+                                <th>ID</th>
+                                <th>Username</th>
                                 <th>Email</th>
-                                <th>joined</th>
+                                <th>Phone No.</th>
                             </tr>
                         </thead>
                         <tbody>
+                        <?php
+                            $result = mysqli_query($connection,"select * from user_details");
+                            if(!$result){
+                                die("Database Connection Failed");
+                            }
+                            
+                        ?>
+                                <?php while($row = mysqli_fetch_array($result)){ ?>
                             <tr>
-                                <td>Dani Daniels</td>
-                                <td>DaniDaniels@gmail.com</td>
-                                <td>Dec 12, 2018</td>
+                                <td><?php echo $row[0] ?></td>
+                                <td><?php echo $row[1] ?></td>
+                                <td><?php echo $row[3] ?></td>
+                                <td><?php echo $row[4] ?></td>
                                 <td>
                                     <a href="edit.html">
                                         <a href="useredit.php" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
                                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
                                 </td>
+                                
                             </tr>
-                            <tr>
-                                <td>Ava Adams</td>
-                                <td>AvaAdams@gmail.com</td>
-                                <td>Dec 12, 2018</td>
-                                <td>
-                                    <a href="edit.html">
-                                    <a href="useredit.php" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Lisa Ann</td>
-                                <td>LisaAnn@gmail.com</td>
-                                <td>Dec 12, 2018</td>
-                                <td>
-                                    <a href="edit.html">
-                                    <a href="useredit.php" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Shyla Stylez</td>
-                                <td>ShylaStylez@gmail.com</td>
-                                <td>Dec 12, 2018</td>
-                                <td>
-                                    <a href="edit.html">
-                                    <a href="useredit.php" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
-                                </td>
-                            </tr>
+                            <?php } ?>
+                           
                         </tbody>
                     </table>
                 </div>

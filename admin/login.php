@@ -1,7 +1,3 @@
-<?php 
- include("inc/header.php")
-?>
-
 <?php
     $log = @$_POST['login'];
     $err="";
@@ -10,7 +6,10 @@
 			$admin_login = $_POST["admin_login"];//preg_replace('#[^A-Za-z0-9]#i', '',  filter everything but members and letters
 			$password_login = $_POST["password_login"];
 			$sql = "SELECT * FROM `cmsusers` WHERE `email` = '$admin_login' AND  `password` = '$password_login' Limit 1";
-			$sqli = mysqli_query($connect,$sql);
+            $sqli = mysqli_query($connect,$sql);
+            if(!$sqli){
+                die("Database connection failed");
+            }
 			//Check for their existence
 			$userCount = mysqli_num_rows($sqli);//Count number of rows returned
 			if($userCount == 1){
@@ -37,6 +36,24 @@
     }
     
 ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Icon css link -->
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="themify-icon/themify-icons.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="
+    /style.css" rel="stylesheet">
+    <script src="ckeditor/ckeditor.js"></script>
+    <title>Admin-login </title>
+</head>
 
 
 <body>
@@ -86,22 +103,3 @@
 <?php 
  include("inc/footer.php")
 ?>
-
-
-
-    <script>
-        CKEDITOR.replace('editor1')
-        CKEDITOR.replace('editor2')
-        CKEDITOR.replace('editor3')
-    </script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
-
-
-</html>
