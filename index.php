@@ -41,7 +41,7 @@
                             
                             <div class="card-body">
                                 <!--<h5 class="card-title"></h5>-->
-                                <p class="card-text">Once you have created an account with cashflow you can follow the steps below to get 50% profit for any package you choose</p>
+                                <p class="card-text">Once you have created an account with spincash you can follow the steps below to get 50% profit for any package you choose</p>
                                 <hr>
                                 <p>- Go to your dashboard and make a pay request <br> - You will be merged with who you are to pay within 24hrs <br> - Once your payment is confirmed you are legible to receive your initial payment with a 50% interest <br></p>
                             </div>
@@ -53,7 +53,7 @@
                             <div class="card-header">CUSTOMER CARE SERVICE</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
-                                <p class="card-text">We have a 24hours, round the clock customer service personnels to help you with any complains or problems you might have or come across while using our service. <hr> You can easily contact us by sending us a message through a provided medium on our contact page. <hr> Get in touch with us directly: support@cashflow.com</p>
+                                <p class="card-text">We have a 24hours, round the clock customer service personnels to help you with any complains or problems you might have or come across while using our service. <hr> You can easily contact us by sending us a message through a provided medium on our contact page. <hr> Get in touch with us directly: support@spincash.com</p>
                             </div>
                         </div>
                     </div>
