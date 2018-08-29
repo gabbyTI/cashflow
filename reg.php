@@ -57,7 +57,7 @@
                     <!--Terms and condition-->
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" name="termsAndCondition" required>
-                        <label class="form-check-label">I agree to all terms &amp; conditions</label>
+                        <label class="form-check-label"><a href="terms.php">I agree to all terms &amp; conditions</a></label>
                     </div>
                     <button value="<?php echo $_GET['ref']?>" type="submit" name="register" class="btn btn-primary">Submit</button>
                 </form>
