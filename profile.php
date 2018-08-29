@@ -24,7 +24,7 @@
                 <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="home-tab">
                     <div class="card text-center">
                         <div class="card-header">
-                            User Dashboard <?php  echo $_SESSION['username']; ?>
+                            User Dashboard: <strong> <?php  if(isset($_SESSION['username'])){echo $_SESSION['username'];} else {header("Location: index.php");exit;} ?> </strong>
                         </div>
                         <div class="card-body" style="text-align: left">
                         <div class="container">
