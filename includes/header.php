@@ -66,7 +66,7 @@ $currentURL = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . $_SE
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="navbar-brand" href="../includes/logout.php" style="font-size: 15px;"> Logout</a>            
+                                        <a class="navbar-brand" href="logout.php"> Logout</a>            
                                     </li>
                                 </ul>
                                 <?php
