@@ -1,6 +1,4 @@
-<?php require_once("includes/session.php");?>
 <?php require_once("includes/profile_process.php");?>
-<?php include("includes/profile_header.php");?>
         <br><br><br>
         
         <!--Main Body Starts-->
@@ -36,9 +34,10 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Make Payment Request</h5>
                                         <hr>
-                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirm within 12hour. Once it is comfirmed you will recieve a merging info within the next 24hrs to which you will be required to pay to.</p>
-                                        <form method="post" action="includes/profile_process.php">
-                                        <button type="submit" name="requestpay" class="btn btn-primary">Request to Pay</a>
+                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirmed and you will recieve a merging info within the next 12hrs to which you will be required to pay to. You can request Among the following packages: <strong>N2000, N4000, N6000, N8000 and N10000</strong></p>
+                                        <form class="form-inline" method="post" action="includes/profile_process.php">
+                                        <input type="text" minlength="4" class="form-control" name="amt" placeholder="Package Amount" required>
+                                        <button type="submit" name="requestpay" class="btn btn-sm btn-primary">Request to Pay</a>
                                         </form>
                                     </div>
                                     </div>
@@ -148,7 +147,10 @@
                         </div>
                         <div class="card-body" style="text-align: left">
                             <div class="alert alert-info">
-                                Complete your registeration by providing your account details | Referall link: http://localhost/cashflow/reg.php?ref=<?php echo $disid; ?>
+                                <strong>Share your refeeral link and get 10% interest from the first successfull transaction each refeeral make!!!</strong>
+                            </div>
+                            <div class="alert alert-warning">
+                                <b>Referall link:</b> http://localhost/cashflow/reg.php?ref=<?php echo $disid; ?>
                             </div>
                             <form method="post" action="includes/profile_process.php">
                                 <!--Username-->
