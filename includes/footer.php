@@ -1,7 +1,7 @@
 <hr style="background: gray;">
         <footer class="footer" style="text-align: center; color:gray">
             <div class="inner">
-                <p>Cashflow - copyright &copy; 2018. by <a href="">Cashflow inc.</a></p>
+                <p>Spincash - copyright &copy; 2018. by <a href="">Spincash inc.</a></p>
             </div>
         </footer>
 

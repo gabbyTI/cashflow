@@ -6,11 +6,11 @@
         <div class="container">
             <div class="card text-center">
                 <div class="card-header">
-                    Cashflow Privacy Policy
+                    Spincash Privacy Policy
                 </div>
                 <div class="card-body"  style="text-align: left">
                     <p class="card-text">
-                    <p>"Cashflow" is focused on keeping up powerful security insurances for our clients. Our Privacy Policy is intended to enable you to see how we gather, utilize and protect the data you give to us and to help you in settling on educated choices when utilizing the cashflow Platform.</p><br>
+                    <p>"Spincash" is focused on keeping up powerful security insurances for our clients. Our Privacy Policy is intended to enable you to see how we gather, utilize and protect the data you give to us and to help you in settling on educated choices when utilizing the cashflow Platform.</p><br>
 
                         <p>For motivations behind this Agreement, the expressions "we," "us," "our", and "Platform" allude to the CashFlow site. "Administration" alludes to our Platform's administration which can be gotten to by means of our site at CashFlow. "You" alludes to you, as a client of the Platform. By tolerating our Privacy Policy, you agree to our accumulation, stockpiling, utilize and revelation of your own and non-individual data as portrayed in this Privacy Policy.</p>
 

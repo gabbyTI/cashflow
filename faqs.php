@@ -6,7 +6,7 @@
         <div class="container">
             <div class="card text-center">
                 <div class="card-header">
-                    Cashflow - Frequently asked questions
+                    Spincash - Frequently asked questions
                 </div>
                 <div class="card-body">
                     <!--<h5 class="card-title"></h5>-->

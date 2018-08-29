@@ -11,16 +11,16 @@
                         if (!$user) {
                             # code...
                             ?>
-                            <h5 class="card-title">Welcome to Cashflow</h5>
-                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
+                            <h5 class="card-title">Welcome to Spincash</h5>
+                            <p class="card-text">Spincash is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click any of the link below to get started.</p>
                             <a href="login.php" class="btn btn-primary">Login</a>
                             <a href="reg.php" class="btn btn-primary">Register</a>
                             <?php
                         }
                         else{
                             ?>
-                            <h5 class="card-title">Welcome to Cashflow -- <?php echo $user; ?> --</h5>
-                            <p class="card-text">Cashflow is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click the links below to get continue.</p>
+                            <h5 class="card-title">Welcome to Spincash -- <?php echo $user; ?> --</h5>
+                            <p class="card-text">Spincash is a very simple platform if you are looking to increase your profits every now and then, cash flow is very easy to use and simple to understand with its friendly user interface it is intended to provide not only quality service but a worthwhile user experience, click the links below to get continue.</p>
                             <a href="<?php echo "profile.php"; ?>" class="btn btn-success">Dashboard</a>
                             <a href="logout.php" class="btn btn-danger">Logout</a>
                             <?php

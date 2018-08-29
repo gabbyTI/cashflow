@@ -17,7 +17,7 @@
         <!--Main Body Starts-->
         <div class="container">
             <div class="card" style="padding: 30px">
-                <b>Cashflow - SIGN UP</b>
+                <b>Spincash - SIGN UP</b>
                 <hr>
                 <form method="post" action="includes/reg_process.php">
                     <!--Username-->

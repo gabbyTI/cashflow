@@ -5,7 +5,7 @@
         <!--Main Body Starts-->
         <div class="container">
             <div class="card" style="padding: 30px">
-                <b>Cashflow - Retrieve Password</b>
+                <b>Spincash - Retrieve Password</b>
                 <hr>
                 <div class="alert alert-info">
                     <strong>Answer your Security question in the next screen</strong>
