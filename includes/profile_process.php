@@ -232,9 +232,7 @@
                     </div>
                     <div class='card-body'>
                         <h1 class='card-title'></h1>
-                        <p class='card-text'>Bank Name: ".$userbnoutput."</p>
-                        <p class='card-text'>Account No: ".$useranoutput."</p>
-                        <p class='card-text'>Account Type: ".$useratoutput."</p>
+                        
                         <strong><p class='card-text'>Phone No: ".$userphoneoutput."</p></strong>
                         <hr>
                         <p class='card-text'>click here to go back</p>
@@ -436,6 +434,8 @@
                         <div class="card-body">
                             <h1 class="card-title"></h1>
                             <p class="card-text">The Package amount you choose is not available, checkout available packages below</p>
+                            <hr>
+                            <p class="card-text"><b>Request and pay any of the following packages to get 50% interest in return <hr>- Invest N2000 to get N3000 in return (Interest-N1000)<br><br> - Invest N4000 to get N6000 in return (Interest-N2000) <br><br> - Invest N6000 to get N9000 in return (Interest-N3000) <br><br> - Invest N8000 to get N12000 in return (Interest-N4000) <br><br> - Invest N10000 to get N15000 in return (Interest-N1000)</b> </p>
                             <p class="card-text">click here to go back to your dashboard</p>
                             <a href="../profile.php" class="btn btn-primary">Back</a>
                         </div>
