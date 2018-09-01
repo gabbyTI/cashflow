@@ -1,10 +1,10 @@
-<?php include("../includes/connection.php") ?>
+<?php require_once("../includes/connection.php") ?>
 <?php include("inc/header.php") ?>
     <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 pt-2">
-                    <h1><span class="ti-settings" aria-hidden="true"></span>&nbsp;Users</h1>
+                    <h1><span class="ti-settings" aria-hidden="true"></span>&nbsp;Members</h1>
                 </div>
             </div>
         </div>
@@ -14,7 +14,7 @@
     <section id="breadcrumb ">
         <div class="container pt-1">
             <ol class="breadcrumb pb-0 pt-0">
-                <li class="active">Dashboard | Users</li>
+                <li class="active">Dashboard | Members</li>
             </ol>
         </div>
     </section>
@@ -23,12 +23,12 @@
     <section id="main">
         <div class="container">
             <div class="row">
-            <?php include("../includes/side_bar.php") ?>
+            <?php include("inc/side_bar.php") ?>
 
                 <div class="col-md-9">
                     <ul class="list-group">
                         <li class="list-group-item active">
-                            <h2>Users</h2>
+                            <h2>Members</h2>
                         </li>
                     </ul>
                     
@@ -59,7 +59,7 @@
                                 <td><?php echo $row[5] ?></td>
                                 <td>
                                     <a href="edit.html">
-                                        <a href="useredit.php" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
+                                        <a href="#" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
                                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
                                 </td>
                                 

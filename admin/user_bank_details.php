@@ -1,4 +1,4 @@
-<?php include("../includes/connection.php") ?>
+<?php require_once("../includes/connection.php") ?>
 <?php 
  include("inc/header.php")
 ?>
@@ -26,7 +26,7 @@
     <section id="main">
         <div class="container">
             <div class="row">
-            <?php include("../includes/side_bar.php") ?>
+            <?php include("inc/side_bar.php") ?>
 
                 <div class="col-md-9">
                     <ul class="list-group">
@@ -60,7 +60,7 @@
                                 <td><?php echo $row[3] ?></td>
                                 <td><?php echo $row[4] ?></td>
                                 <td>
-                                    <a href="edit.html">
+                                    <a href="#">
                                         <button type="button" class="btn btn-info">Edit</button></a> &nbsp;&nbsp;
                                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
                                 </td>

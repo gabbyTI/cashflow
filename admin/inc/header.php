@@ -1,4 +1,4 @@
-<?php include("connect.php")?>
+<?php require_once("../includes/connection.php")?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +20,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-success bg-dark pb-1 pt-0">
-        <span class="navbar-brand" href="#" style="color:blue;"><i class="ti-desktop"></i>&nbsp;Admin Dashboard</span>
+        <span class="navbar-brand" href="#" style="color:blue;"><i class="ti-desktop"></i>&nbsp;Administrator</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="ti-menu-alt" style="color:dodgerblue"></span>
         </button>
@@ -28,8 +28,8 @@
             <div class="navbar-nav ">
                 <a class="nav-item nav-link " href="Index.php">Dashboard<span class="sr-only"></span></a>
                 <a class="nav-item nav-link " href="user_bank_details.php">Bank Details</a>
-                <a class="nav-item nav-link " href="posts.php">Posts</a>
-                <a class="nav-item nav-link " href="Users.php">Users</a>
+                <a class="nav-item nav-link " href="transactions.php">Transactions</a>
+                <a class="nav-item nav-link " href="Users.php">Members</a>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
