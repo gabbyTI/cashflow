@@ -266,8 +266,8 @@
             
             if (mysqli_num_rows($result) == 1) {
                 $query = "INSERT INTO payers
-                (userID, username, amount, date, time, Status) 
-                VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}','Pending')";
+                (userID, username, amount, date, time) 
+                VALUES ('{$user_id}','{$sessionkey}','{$pamt}','{$curdate}','{$surtime}')";
 
                 $result = mysqli_query($connection,$query);
 
