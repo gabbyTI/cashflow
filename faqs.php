@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="card-footer text-muted">
-                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations</i>
+                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations - use your spare money</i>
                 </div>
             </div>
             <hr>

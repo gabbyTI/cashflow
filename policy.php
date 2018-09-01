@@ -10,165 +10,125 @@
                 </div>
                 <div class="card-body"  style="text-align: left">
                     <p class="card-text">
-                    <p>"Spincash" is focused on keeping up powerful security insurances for our clients. Our Privacy Policy is intended to enable you to see how we gather, utilize and protect the data you give to us and to help you in settling on educated choices when utilizing the cashflow Platform.</p><br>
-
-                        <p>For motivations behind this Agreement, the expressions "we," "us," "our", and "Platform" allude to the CashFlow site. "Administration" alludes to our Platform's administration which can be gotten to by means of our site at CashFlow. "You" alludes to you, as a client of the Platform. By tolerating our Privacy Policy, you agree to our accumulation, stockpiling, utilize and revelation of your own and non-individual data as portrayed in this Privacy Policy.</p>
-
-                        <br>
-                        <p><strong>Introduction</strong></p>
-                        <p>We are focused on protecting the security of our Platform's clients; in this approach we clarify how we will treat your own data.</p>
-                        <p>By utilizing our site and consenting to this approach, you agree to our utilization of treats as per the terms of this strategy.</p>
-
-
-                        <br> 
-
-                        <p><strong>Gathering personal information</strong></p> 
-
-                        <p>We may gather, store and utilize the accompanying sorts of personal data: </p> 
-
-                        <p>(a)	information that you provide to us while enrolling with our site (counting your full names, your email address, and your Phone number);</p> 
-
-                        <p>(b)	information that you post to our site for publication on the internet;</p> 
-
-                        <p>(c)	information contained in or identifying with any correspondence that you send to us or send through our site (counting the correspondence substance and metadata related with the communication);</p> 
-
-                        <p>(d)	and whatever other personal data that you send to us. 
-
-                        </p> 
-
-                        <p>Before you unveil to us the personal data of someone else, you should acquire that person's agree to both the revelation and the processing of that personal data as per this policy.</p> 
-
-                        <br> 
-
-                        <p><strong>Utilizing personal information</strong></p> 
-
-                        <p>Personal data submitted to us through our site will be utilized for the purposes specified in this policy.</p> 
-
-                        <p>We may utilize your personal data to: </p> 
-
-                        <p>(a)	personalise our site for you;</p> 
-
-                        <p>(b)	enable your utilization of the administrations and data accessible on our website;</p> 
-
-                        <p>(c)	send you non-showcasing, and non-business communications;</p> 
-
-                        <p>(d)	deal with enquiries and complaints made by or about you identifying with our website;</p> 
-
-                        <p>(e)	keep our site secure and prevent fraud;</p> 
-
-                        <p>(f)	verify compliance with the terms and conditions overseeing the utilization of our website.</p> 
-
-                        <p>If you submit personal data for publication on our site, we will publish and generally utilize that data as per the permit you allow to us.</p> 
-
-                        <p>We won't, without your express assent, supply your personal data to any outsider with the end goal of their or some other outsider's immediate marketing.</p> 
-
-                        <br> 
-
-                        <p><strong>Uncovering personal information</strong></p> 
-
-                        <p>We may uncover your personal data to any of our employees, officers, professional guides, specialists, suppliers or subcontractors seeing that sensibly fundamental for the purposes set out in this policy.</p> 
-
-                        <p>We may reveal your personal data to any individual from our group of companies (this implies our auxiliaries, our definitive holding company and every one of its backups) seeing that sensibly vital for the purposes set out in this policy.</p> 
-
-                        <p>We may reveal your personal data: </p> 
-
-                        <p>(a)	to the degree that we are required to do as such by law;</p> 
-
-                        <p>(b)	in association with any continuous or prospective legitimate proceedings;</p> 
-
-                        <p>(c)	in request to build up, practice or protect our lawful rights (counting providing data to others for the purposes of misrepresentation prevention and lessening credit risk);</p> 
-
-                        <p>(d)	to the purchaser (or prospective purchaser) of any business or resource that we are (or are contemplating) offering; and</p> 
-
-                        <p>(e)	to any person who we sensibly accept may apply to a court or other competent specialist for revelation of that personal data where, as we would like to think, such court or expert would probably arrange divulgence of that personal data. 
-
-                        </p> 
-
-                        <p>Except as provided in this policy, we won't provide your personal data to third parties.</p> 
-
-                        <br> 
-
-                        <p><strong>Global information transfers</strong></p> 
-
-                        <p>Information that we gather might be put away and processed in and exchanged between any of the nations in which we operate keeping in mind the end goal to empower us to utilize the data as per this policy.</p> 
-
-                        <p>Information that we gather might be exchanged to the accompanying nations: European Economic Area Countries, the United States of America, Russia, Japan, China and India.</p> 
-
-                        <p>Personal data that you publish on our site or submit for publication on our site might be accessible, through the web, the world over. We can't prevent the utilization or abuse of such data by others.</p> 
-
-                        <p>You expressly consent to the exchanges of personal data portrayed in this Section 5.</p> 
-
-                        <br> 
-
-                        <p><strong>Holding personal information</strong></p> 
-
-                        <p>This Section 6 sets out our information maintenance policies and procedure, which are intended to help guarantee that we comply with our lawful commitments in connection to the maintenance and cancellation of personal information.</p> 
-
-                        <p>Personal data that we process for any purpose or purposes will not be kept for longer than is essential for that purpose or those purposes.</p> 
-
-                        <p>Notwithstanding alternate provisions of this Section 6, we will hold archives (counting electronic records) containing personal information: </p> 
-
-                        <p>(a)	to the degree that we are required to do as such by law;</p> 
-
-                        <p>(b)	if we trust that the reports might be pertinent to any continuous or prospective legitimate proceedings; and</p> 
-
-                        <p>(c)	in request to build up, practice or safeguard our lawful rights (counting providing data to others for the purposes of extortion prevention and decreasing credit risk).</p> 
-
-                        <br> 
-
-                        <p><strong>Security of personal information</strong></p> 
-
-                        <p>We will take sensible specialized and authoritative precautions to prevent the misfortune, abuse or adjustment of your personal information.</p> 
-
-                        <p>We will store all the personal data you provide on our safe (password-and firewall-protected) servers.</p> 
-
-                        <p>You recognize that the transmission of data over the web is inalienably shaky, and we can't ensure the security of information sent over the internet.</p> 
-
-                        <p>You are responsible for keeping the password you use for getting to our site classified; we won't approach you for your password (except when you sign in to our website).</p> 
-
-                        <br> 
-
-                        <p><strong>Amendments</strong></p> 
-
-                        <p>We may update this policy every once in a while by publishing another form on our website.</p> 
-
-                        <p>You should check this page sporadically to guarantee you are happy with any progressions to this policy.</p> 
-
-                        <p>We may advise you of material changes to this policy by email.</p> 
-
-                        <br> 
-
-                        <p><strong>Outsider websites</strong></p> 
-
-                        <p>Our site may highlight connects to, and points of interest of, outsider promoter websites.</p> 
-
-                        <p>We have no power over, and are not responsible for, the privacy policies and practices of third parties.</p> 
-
-                        <br> 
-
-                        <p><strong>Cookies</strong></p> 
-
-                        <p>Our site makes utilization of cookies.</p> 
-
-                        <p>A treat is a record containing an identifier (a series of letters and numbers) that is sent by a web server to an internet browser and is put away by the browser. The identifier is then sent back to the server each time the browser asks for a page from the server.</p> 
-
-                        <p>Cookies might be either "persistent" treats or "session" treats: a persistent treat will be put away by an internet browser and will stay substantial until the point when its set expiry date, except if erased by the client before the expiry date; a session treat, then again, will expire toward the finish of the client session, when the internet browser is shut. </p> 
-
-                        <p>Cookies don't typically contain any data that personally distinguishes a client, however personal data that we store about you might be connected to the data put away in and acquired from cookies.</p> 
-
-                        <p>We utilize both session and persistent treats on our website.</p> 
-
-                        <p>Most browsers and gadgets enable you to decline to accept treats, anyway please keep at the top of the priority list that hindering our treats will detrimentally affect your utilization of our website.</p> 
-
-                        <br> 
-
-                        <br> 
-
-                        <p>You can get in touch with us for encourage illumination on any of the points above by email to <strong>support@CashFlow.com</strong><br><br> 
-
-                        Last Updated: This Privacy Policy was last updated on August 26, 2018.</p> 
-
-                        </p>
+                    <p>Effective date: August 29, 2018</p>
+                    
+                    
+                    <p>Spincash ("us", "we", or "our") operates the http://spincash.net website (hereinafter referred to as the "Service").</p>
+                    
+                    <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This Privacy Policy  for Spincash is <a href="https://termsfeed.com/privacy-policy/generator/">generated by the Privacy Policy Generator from TermsFeed</a>.</p>
+                    
+                    <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from http://spincash.net</p>
+                    
+                    <h2>Definitions</h2>
+                    <ul>
+                        <li>
+                            <p><strong>Service</strong></p>
+                                    <p>Service is the http://spincash.net website operated by Spincash</p>
+                                </li>
+                        <li>
+                            <p><strong>Personal Data</strong></p>
+                            <p>Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).</p>
+                        </li>
+                        <li>
+                            <p><strong>Usage Data</strong></p>
+                            <p>Usage Data is data collected automatically either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+                        </li>
+                        <li>
+                            <p><strong>Cookies</strong></p>
+                            <p>Cookies are small files stored on your device (computer or mobile device).</p>
+                        </li>
+                    </ul>
+                    
+                    <h2>Information Collection and Use</h2>
+                    <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+                    
+                    <h3>Types of Data Collected</h3>
+                    
+                    <h4>Personal Data</h4>
+                    <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+                    
+                    <ul>
+                    <li>Email address</li><li>Phone number</li><li>Cookies and Usage Data</li>
+                    </ul>
+                    
+                    <h4>Usage Data</h4>
+                    
+                    <p>We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+                    
+                    <h4>Tracking & Cookies Data</h4>
+                    <p>We use cookies and similar tracking technologies to track the activity on our Service and we hold certain information.</p>
+                    <p>Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Other tracking technologies are also used such as beacons, tags and scripts to collect and track information and to improve and analyse our Service.</p>
+                    <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+                    <p>Examples of Cookies we use:</p>
+                    <ul>
+                        <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+                        <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+                        <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+                    </ul>
+                    
+                    <h2>Use of Data</h2>
+                        
+                    <p>Spincash uses the collected data for various purposes:</p>    
+                    <ul>
+                        <li>To provide and maintain the Service</li>
+                        <li>To notify you about changes to our Service</li>
+                        <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+                        <li>To provide customer care and support</li>
+                        <li>To provide analysis or valuable information so that we can improve the Service</li>
+                        <li>To monitor the usage of the Service</li>
+                        <li>To detect, prevent and address technical issues</li>
+                    </ul>
+                    
+                    <h2>Transfer Of Data</h2>
+                    <p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+                    <p>If you are located outside Nigeria and choose to provide information to us, please note that we transfer the data, including Personal Data, to Nigeria and process it there.</p>
+                    <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+                    <p>Spincash will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+                    
+                    <h2>Disclosure Of Data</h2>
+                    
+                    <h3>Legal Requirements</h3>
+                    <p>Spincash may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+                    <ul>
+                        <li>To comply with a legal obligation</li>
+                        <li>To protect and defend the rights or property of Spincash</li>
+                        <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+                        <li>To protect the personal safety of users of the Service or the public</li>
+                        <li>To protect against legal liability</li>
+                    </ul>
+                    
+                    <h2>Security of Data</h2>
+                    <p>The security of your data is important to us but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+                    
+                    <h2>Service Providers</h2>
+                    <p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+                    <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+                    
+                     
+                    
+                    
+                    <h2>Links to Other Sites</h2>
+                    <p>Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+                    <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+                    
+                    
+                    <h2>Children's Privacy</h2>
+                    <p>Our Service does not address anyone under the age of 18 ("Children").</p>
+                    <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+                    
+                    
+                    <h2>Changes to This Privacy Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+                    <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+                    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                    
+                    
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                    <ul>
+                            <li>By email: support@spincash.com</li>
+                              
+                            </ul>
                 </div>
 
                 <div class="card-footer text-muted">

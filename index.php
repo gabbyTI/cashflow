@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="card-footer text-muted">
-                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations</i>
+                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations - use your spare money</i>
                 </div>
             </div>
             <hr>
@@ -41,7 +41,7 @@
                             
                             <div class="card-body">
                                 <!--<h5 class="card-title"></h5>-->
-                                <p class="card-text">Once you have created an account with spincash you can follow the steps below to get 50% profit for any package you choose</p>
+                                <p class="card-text">Once you have created an account with spincash you can follow the steps below to get 50% profit for any interest package you choose</p>
                                 <hr>
                                 <p>- Go to your dashboard and make a pay request <br> - You will be merged with who you are to pay within 24hrs <br> - Once your payment is confirmed you are legible to receive your initial payment with a 50% interest <br></p>
                             </div>
@@ -63,7 +63,7 @@
                             <div class="card-header">AVAILABLE PACKAGES</div>
                             <div class="card-body">
                                 <!--<h5 class="card-title">Light card title</h5>-->
-                                <p class="card-text">Request and pay any of the following packages to get 50% interest in return <hr>- N2000 Package - ROI: 50%<br><br> - N4000 Package - ROI: 50% <br><br> - N6000 Package - ROI: 50% <br><br> - N8000 Package - ROI: 50% <br><br> - N10000 Package - ROI: 50% </p>
+                                <p class="card-text">Request and pay any of the following packages to get 50% interest in return <hr>- Invest N2000 to get N3000 in return (Interest-N1000)<br><br> - Invest N4000 to get N6000 in return (Interest-N2000) <br><br> - Invest N6000 to get N9000 in return (Interest-N3000) <br><br> - Invest N8000 to get N12000 in return (Interest-N4000) <br><br> - Invest N10000 to get N15000 in return (Interest-N5000) </p>
                             </div>
                         </div>
                     </div>
