@@ -53,19 +53,19 @@ $currentURL = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . $_SE
                         if (strpos($currentURL, "profile.php") == false){
                             ?>
                             <li class="nav-item active">
-                                <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../about.php">About Us</a>
+                                <a class="nav-link" href="about.php">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../contact.php">Contact Us</a>
+                                <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../policy.php">Privacy Policy</a>
+                                <a class="nav-link" href="policy.php">Privacy Policy</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../faqs.php">FAQs</a>
+                                <a class="nav-link" href="faqs.php">FAQs</a>
                             </li>
                             <?php
                         }  
@@ -78,7 +78,7 @@ $currentURL = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . $_SE
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="navbar-brand" href="../logout.php"> Logout</a>            
+                                        <a class="navbar-brand" href="logout.php"> Logout</a>            
                                     </li>
                                 </ul>
                                 <?php

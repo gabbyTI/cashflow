@@ -26,7 +26,7 @@
     $_SESSION['username'] = $username;
     // for the login
     if (mysqli_num_rows($result) == 1){
-        header("Location: http://spincash.net/profile.php");
+        header("Location: ../profile.php");
         exit;
     }else{
         //Failed
