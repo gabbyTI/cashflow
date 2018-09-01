@@ -30,6 +30,7 @@
                 <a class="nav-item nav-link " href="user_bank_details.php">Bank Details</a>
                 <a class="nav-item nav-link " href="transactions.php">Transactions</a>
                 <a class="nav-item nav-link " href="Users.php">Members</a>
+                <a class="nav-item nav-link " href="Payers.php">Payers</a>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
