@@ -1,10 +1,13 @@
 <?php require_once("../includes/connection.php") ?>
-<?php include("inc/header.php") ?>
+<?php 
+ include("inc/header.php")
+?>
+
     <header id="header">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 pt-2">
-                    <h1><span class="ti-settings" aria-hidden="true"></span>&nbsp;Members</h1>
+                    <h1><span class="ti-settings" aria-hidden="true"></span>&nbsp;User Bank Details</h1>
                 </div>
             </div>
         </div>
@@ -14,7 +17,7 @@
     <section id="breadcrumb ">
         <div class="container pt-1">
             <ol class="breadcrumb pb-0 pt-0">
-                <li class="active">Dashboard | Members</li>
+                <li class="active">Dashboard | Bank Details</li>
             </ol>
         </div>
     </section>
@@ -28,44 +31,41 @@
                 <div class="col-md-9">
                     <ul class="list-group">
                         <li class="list-group-item active">
-                            <h2>Members</h2>
+                            <h2>User Bank Details</h2>
                         </li>
                     </ul>
                     
                     <table class="table table-hover">
                         <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>Username</th>
-                                <th>Email</th>
-                                <th>Phone No.</th>
-                                <th>Referral</th>
+                                <th>UserID</th>
+                                <th>Bank Name</th>
+                                <th>Account No.</th>
+                                <th>Account Type</th>
                             </tr>
                         </thead>
                         <tbody>
                         <?php
-                            $result = mysqli_query($connection,"select * from user_details");
+                            $result = mysqli_query($connection,"select * from bank_details");
                             if(!$result){
                                 die("Database Connection Failed");
                             }
                             
                         ?>
-                                <?php while($row = mysqli_fetch_array($result)){ ?>
+                            <?php while($row = mysqli_fetch_array($result)){ ?>
                             <tr>
-                                <td><?php echo $row[0] ?></td>
+                            <tr>
                                 <td><?php echo $row[1] ?></td>
+                                <td><?php echo $row[2] ?></td>
                                 <td><?php echo $row[3] ?></td>
                                 <td><?php echo $row[4] ?></td>
-                                <td><?php echo $row[5] ?></td>
                                 <td>
-                                    <a href="edit.html">
-                                        <a href="#" type="button" class="btn btn-info">Edit</a></a> &nbsp;&nbsp;
+                                    <a href="#">
+                                        <button type="button" class="btn btn-info">Edit</button></a> &nbsp;&nbsp;
                                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete</button>
                                 </td>
-                                
                             </tr>
                             <?php } ?>
-                           
                         </tbody>
                     </table>
                 </div>
@@ -73,7 +73,6 @@
         </div>
     </section>
 
-
- <?php 
+<?php 
  include("inc/footer.php")
 ?>
