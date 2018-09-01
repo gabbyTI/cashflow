@@ -54,7 +54,7 @@
                                         <h5 class="pl-2">
                                             <span class="ti-list-ol" aria-hidden="true"></span>&nbsp;
                                             <?php
-                                                $result = mysqli_query($connection,"select count(*) Total from bank_details");
+                                                $result = mysqli_query($connection,"select count(*) Total from Payers");
                                                 if(!$result){
                                                     die("Database Connection Failed");
                                                 }
@@ -64,7 +64,7 @@
                                                 }
                                             ?>
                                         </h5>
-                                        <h5 class="pl-2">Bank Details</h5>
+                                        <h5 class="pl-2">Payers</h5>
                                     </div>
                                 </div>
                                 <div class="col-md-4">

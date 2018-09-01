@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ">
                 <a class="nav-item nav-link " href="Index.php">Dashboard<span class="sr-only"></span></a>
-                <a class="nav-item nav-link " href="user_bank_details.php">Bank Details</a>
+              <!-- bank deatails not in use  <a class="nav-item nav-link " href="user_bank_details.php">Bank Details</a> -->
                 <a class="nav-item nav-link " href="transactions.php">Transactions</a>
                 <a class="nav-item nav-link " href="Users.php">Members</a>
                 <a class="nav-item nav-link " href="Payers.php">Payers</a>
