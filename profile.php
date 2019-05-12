@@ -3,7 +3,14 @@
         
         <!--Main Body Starts-->
         <div class="container">
-
+            <?php
+                if (!$user) {
+                    # code...
+                    ?>
+                    header(location: 'index.php');
+                    <?php
+                }
+            ?>
             <!--Nav list section begins-->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -24,7 +31,7 @@
                 <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="home-tab">
                     <div class="card text-center">
                         <div class="card-header">
-                            User Dashboard <?php  echo $_SESSION['username']; ?>
+                            User Dashboard: <strong> <?php  if(isset($_SESSION['username'])){echo $_SESSION['username'];} else {header("Location: index.php");exit;} ?> </strong>
                         </div>
                         <div class="card-body" style="text-align: left">
                         <div class="container">
@@ -34,7 +41,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Make Payment Request</h5>
                                         <hr>
-                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirmed and you will recieve a merging info within the next 12hrs to which you will be required to pay to. You can request Among the following packages: <strong>N2000, N4000, N6000, N8000 and N10000</strong></p>
+                                        <p class="card-text">Click the button below to make a payment request. Your request will be confirmed and you will recieve a merging info in less than 48hrs to wchich you will be required to pay. You can request Among the following packages: <strong>N2000, N4000, N6000, N8000 and N10000</strong></p>
                                         <form class="form-inline" method="post" action="includes/profile_process.php">
                                         <input type="text" minlength="4" class="form-control" name="amt" placeholder="Package Amount" required>
                                         <button type="submit" name="requestpay" class="btn btn-sm btn-primary">Request to Pay</a>
@@ -107,7 +114,7 @@
                                             </div>
                                         </p>
                                         <div class="alert alert-info">
-                                            <small>Scroll left on mobile devices to view more details</small>
+                                            <small>Type in the username of the person you where merged with to see contact details</small>
                                             <form class="form-inline" method="post" action="includes/profile_process.php">
                                                 <input type="text" name="chkuser" class="form-control" id="exampleInputNumber" aria-describedby="" placeholder="Retrieve user contacts" required>
                                                 <button class="btn btn-sm btn-primary" type="submit" name="retrieveuser">check username</button>
@@ -124,7 +131,7 @@
                                         <h5 class="card-header">Confirm Payment</h5>
                                         <div class="card-body">
                                             <h5 class="card-title"></h5>
-                                            <p class="card-text">Type in or paste the transaction code you recieved and click confirm to confirm payment</p>
+                                            <p class="card-text">Type in or paste the transaction ID or the transaction you want to confirm and click confirm to confirm the payment</p>
                                             <form class="form-inline" method="post" action="includes/profile_process.php">
                                             <input type="number" name="confirmid" class="form-control" id="exampleInputNumber" aria-describedby="" placeholder="Transaction code here" required>
                                                 <button class="btn btn-primary" type="submit" name="confirmtransac">Confirm</button>
@@ -147,10 +154,10 @@
                         </div>
                         <div class="card-body" style="text-align: left">
                             <div class="alert alert-info">
-                                <strong>Share your refeeral link and get 10% interest from the first successfull transaction each refeeral make!!!</strong>
+                                <strong>Share your referral link and get 10% interest from the first successfull transaction each refeeral make!!!</strong>
                             </div>
                             <div class="alert alert-warning">
-                                <b>Referall link:</b> http://localhost/cashflow/reg.php?ref=<?php echo $disid; ?>
+                                <b>Referall link:</b> <input type="text" class="form-control" value="http://spincash.net/reg.php?ref=<?php echo $disid; ?>">
                             </div>
                             <form method="post" action="includes/profile_process.php">
                                 <!--Username-->
@@ -162,29 +169,29 @@
                                 <div class="form-group">
                                     <label>Email address</label>
                                     <input type="email" class="form-control" name="email" aria-describedby="emailHelp" value="<?php echo $disem?>" requied disabled>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
                                 </div>
                                 <!--Phone No.-->
                                 <div class="form-group">
                                     <label>Phone No.</label>
                                     <input type="tel" maxlength="11" minlength="10" class="form-control" name="phoneNumber" value="<?php echo $disphone?>" required disabled>
                                 </div>
-                                <!--Bank Name-->
+                                <!--Bank Name
                                 <div class="form-group">
                                     <label>Bank Name</label>
                                     <input type="Text" maxlength="20" minlength="5" class="form-control" value="<?php echo $disbn?>" required disabled>
-                                </div>
-                                <!--Account No-->
+                                </div>-->
+                                <!--Account No
                                 <div class="form-group">
                                     <label>Account No</label>
                                     <input type="number" maxlength="15" minlength="5" class="form-control" value="<?php echo $disan?>" required disabled>
-                                </div>
+                                </div>-->
                                 
-                                <!-- Button trigger modal -->
+                                <!-- Button trigger modal
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#editprofile">Update Profile</button>
-                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#changepassword">Change Password</button>
-                                </div>
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#editprofile">Update Profile</button> -->
+                                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#changepassword" disabled>Change Password</button>
+                                <!--</div> -->
                                 
                                 <!-- Modal -->
                                 <div class="modal fade" id="editprofile" tabindex="-1" role="dialog" aria-labelledby="editprofileTitle" aria-hidden="true">

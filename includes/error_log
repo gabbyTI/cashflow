@@ -1,0 +1,70 @@
+[29-Aug-2018 16:57:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/spincas1/public_html/includes/login_process.php:3) in /home2/spincas1/public_html/includes/login_process.php on line 30
+[29-Aug-2018 17:00:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/spincas1/public_html/includes/login_process.php:3) in /home2/spincas1/public_html/includes/login_process.php on line 30
+[29-Aug-2018 17:02:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/spincas1/public_html/includes/login_process.php:3) in /home2/spincas1/public_html/includes/login_process.php on line 29
+[29-Aug-2018 18:07:27 Africa/Lagos] PHP Notice:  Undefined variable: rcpt in /home2/spincas1/public_html/includes/profile_process.php on line 140
+[29-Aug-2018 18:09:40 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[29-Aug-2018 18:12:52 Africa/Lagos] PHP Notice:  Undefined variable: userchk in /home2/spincas1/public_html/includes/profile_process.php on line 160
+[29-Aug-2018 18:17:37 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[29-Aug-2018 18:36:19 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[29-Aug-2018 19:09:44 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[29-Aug-2018 20:13:32 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[29-Aug-2018 20:14:30 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[29-Aug-2018 20:42:55 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[29-Aug-2018 20:44:49 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[29-Aug-2018 22:34:08 Africa/Lagos] PHP Notice:  Undefined index: amt in /home2/spincas1/public_html/includes/profile_process.php on line 248
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/faqs.php on line 2
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/faqs.php on line 2
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/faqs.php on line 2
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/faqs.php on line 34
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/faqs.php on line 34
+[29-Aug-2018 23:39:27 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/faqs.php on line 34
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/policy.php on line 2
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/policy.php on line 2
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/policy.php on line 2
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/policy.php on line 144
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/policy.php on line 144
+[29-Aug-2018 23:39:28 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/policy.php on line 144
+[29-Aug-2018 23:40:24 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:40:24 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:40:24 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:42:09 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:42:09 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:42:09 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/about.php on line 25
+[29-Aug-2018 23:42:25 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:42:25 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:42:25 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:44:03 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:44:03 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:44:03 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:47:45 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:47:45 Africa/Lagos] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home2/spincas1/public_html/includes/contact.php on line 43
+[29-Aug-2018 23:47:45 Africa/Lagos] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/spincas1/public_html/includes/contact.php on line 43
+[30-Aug-2018 07:21:26 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 07:21:26 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 09:15:34 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 09:15:34 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 09:15:42 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[30-Aug-2018 10:03:02 Africa/Lagos] PHP Notice:  Undefined index: password in /home2/spincas1/public_html/includes/reg_process.php on line 7
+[30-Aug-2018 10:03:02 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 10:03:02 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 10:03:02 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[30-Aug-2018 14:42:05 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 14:42:05 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 16:14:53 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 16:14:53 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 16:15:09 Africa/Lagos] PHP Notice:  Undefined variable: user_id in /home2/spincas1/public_html/includes/login_process.php on line 25
+[30-Aug-2018 16:44:29 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 16:44:29 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[30-Aug-2018 16:44:29 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[30-Aug-2018 17:00:22 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[30-Aug-2018 17:00:22 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[31-Aug-2018 00:21:47 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[31-Aug-2018 00:21:47 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[31-Aug-2018 00:21:47 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53
+[31-Aug-2018 00:28:00 Africa/Lagos] PHP Notice:  Undefined index: username in /home2/spincas1/public_html/includes/profile_process.php on line 22
+[31-Aug-2018 10:58:11 Africa/Lagos] PHP Notice:  Undefined variable: userchk in /home2/spincas1/public_html/includes/profile_process.php on line 160
+[31-Aug-2018 15:08:03 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[31-Aug-2018 15:08:03 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[01-Sep-2018 03:58:33 Africa/Lagos] PHP Notice:  Undefined index: squestion in /home2/spincas1/public_html/includes/reg_process.php on line 8
+[01-Sep-2018 03:58:33 Africa/Lagos] PHP Notice:  Undefined index: sanswer in /home2/spincas1/public_html/includes/reg_process.php on line 9
+[01-Sep-2018 03:58:34 Africa/Lagos] PHP Notice:  Undefined variable: disrefname in /home2/spincas1/public_html/includes/reg_process.php on line 53

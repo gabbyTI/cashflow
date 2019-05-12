@@ -26,7 +26,6 @@
     $_SESSION['username'] = $username;
     // for the login
     if (mysqli_num_rows($result) == 1){
-        //success
         header("Location: ../profile.php");
         exit;
     }else{

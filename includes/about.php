@@ -1,5 +1,5 @@
 <?php
-    include 'includes/header.php';
+    include '../includes/header.php';
 ?>
         <br><br><br>
         <!--Main Body Starts-->

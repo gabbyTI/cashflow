@@ -1,5 +1,5 @@
 <?php
-    include 'includes/header.php';
+    include '../includes/header.php';
 ?>
         <br><br><br>
         <!--Main Body Starts-->
@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="card-footer text-muted">
-                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations - use your spare money</i>
+                    <i>Disclaimer - This platform does not serve as a place to get assured steady income as it is based on peer to peer donations</i>
                 </div>
             </div>
             <hr>

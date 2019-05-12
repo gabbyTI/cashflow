@@ -1,5 +1,5 @@
 <?php
-    include 'includes/header.php';
+    include '../includes/header.php';
 ?>
         <br><br><br>
         <!--Main Body Starts-->
@@ -8,11 +8,8 @@
                 <div class="card-header">
                     Contact Us
                 </div>
-                
-                <p class="card-text"></p>
-                <div class="card-body" style="text-align: center;">
-                    <b>Send us a mail and we will respond to you as soon as possible <br> Email: support@spincash.net</b>
-                    <!--<h5>We always love hearing from you. <br> just send us a message and we will get back to you as soon as possible</h3>
+                <div class="card-body">
+                    <h5>We always love hearing from you. <br> just send us a message and we will get back to you as soon as possible</h3>
                     <hr>
                     <p class="card-text"></p>
                     <form>
@@ -32,7 +29,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-                -->
                 </div>
 
                 <div class="card-footer text-muted">

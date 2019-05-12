@@ -28,7 +28,7 @@
                     <!--Email-->
                     <div class="form-group">
                         <label>Email address</label>
-                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <!--Phone No.-->
@@ -36,7 +36,7 @@
                         <label>Phone No.</label>
                         <input type="tel" maxlength="11" minlength="10" class="form-control" name="phoneNumber" placeholder="Enter Phone Number" required>
                     </div>
-                    <!--Password
+                    <!--Password-->
                     <div class="form-group">
                         <label>Security question</label>
                         <input type="text" maxlength="200" minlength="3" class="form-control"name="squestion" placeholder="Security question" required>
@@ -44,7 +44,7 @@
                     <div class="form-group">
                         <label>Security Answer</label>
                         <input type="text" maxlength="200" minlength="1" class="form-control"name="sanswer" placeholder="Security answer" required>
-                    </div>-->
+                    </div>
                     <div class="form-group">
                         <label>Password</label>
                         <input type="password" maxlength="15" minlength="5" class="form-control"name="password" placeholder="Password" required>
